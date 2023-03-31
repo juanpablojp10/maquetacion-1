@@ -1,0 +1,115 @@
+/* ESTILOS PARA REALIZAR RESET  */
+
+
+ul {
+    list-style: none;
+    font-weight: 300;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family:'Roboto', sans-serif;
+    font-weight: 700;
+
+
+}
+/* FIN ESTILOS PARA REALIZAR RESET  */
+
+
+/* ESTILOS PARA EL BLOQUE DE HEADER  */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2c3e50;
+    color: #ffffff;
+    padding: 10px;
+    z-index: 0;
+
+
+
+}
+
+.logo {
+    width: 50px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu-btn {
+    display: block;
+    cursor: pointer;
+}
+
+.menu-btn span { 
+    display: block;
+    width: 30px;
+    height: 5px;
+    background-color: #ffffff;
+    margin-bottom: 5px;
+    border-radius: 3px;
+}
+
+aside {
+
+     position: fixed;  
+     top: 0;
+     left: -250px;
+     width: 250px;
+     height: 100%;
+     padding: 20px;
+     z-index: 1;
+     background-color: #2c3e50;
+     color: #ffffff;
+     transition: all 0.3s ease-in-out;
+     overflow-y: auto;
+
+}
+
+aside.active { 
+    left: 0;
+}
+
+nav ul {
+    padding: 0;
+    margin: 20px;
+
+}
+
+nav ul li {
+    margin-bottom: 10px;
+}
+
+nav ul li>a {
+
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* pseudoclase */
+nav ul li>a :hover {
+    text-decoration: underline;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* footer p {
+    font-weight: 700;
+} */
+
+/* FIN ESTILOS PARA EL BLOQUE DE HEADER  */
